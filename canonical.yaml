@@ -1,0 +1,710 @@
+alphas_mod_bottom:
+  x: 0
+  'y': 0
+  r: 0
+  meta:
+    stagger: 0
+    spread: 18
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 17
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: mod_bottom
+    name: alphas_mod_bottom
+    zone: &ref_1
+      rows:
+        bottom: {}
+        home: {}
+        top: {}
+      columns:
+        mod: &ref_0
+          rows:
+            top:
+              skip: true
+          key: {}
+          name: mod
+        pinky: &ref_2
+          key:
+            stagger: -2
+          rows: {}
+          name: pinky
+        ring: &ref_3
+          key:
+            stagger: 16
+            splay: -4
+            spread: cx+4.7
+          rows: {}
+          name: ring
+        middle: &ref_4
+          key:
+            stagger: 12
+            splay: -5.35
+            spread: cx+5
+          rows: {}
+          name: middle
+        index: &ref_5
+          key:
+            stagger: -8
+            splay: -5.75
+            spread: cx+5
+          rows: {}
+          name: index
+        far: &ref_6
+          key:
+            stagger: -1.4
+            splay: -4.06
+            spread: cx+0.7
+          rows:
+            bottom:
+              skip: false
+          name: far
+      name: alphas
+    col: *ref_0
+    row: bottom
+    bind:
+      - 10
+      - 10
+      - 0
+      - 0
+alphas_mod_home:
+  x: 0
+  'y': 17
+  r: 0
+  meta:
+    stagger: 0
+    spread: 18
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 17
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: mod_home
+    name: alphas_mod_home
+    zone: *ref_1
+    col: *ref_0
+    row: home
+    bind:
+      - 10
+      - 10
+      - 10
+      - 0
+alphas_pinky_bottom:
+  x: 18
+  'y': -2
+  r: 0
+  meta:
+    stagger: -2
+    spread: 18
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 17
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: pinky_bottom
+    name: alphas_pinky_bottom
+    zone: *ref_1
+    col: *ref_2
+    row: bottom
+    bind:
+      - 10
+      - 0
+      - 0
+      - 0
+alphas_pinky_home:
+  x: 18
+  'y': 15
+  r: 0
+  meta:
+    stagger: -2
+    spread: 18
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 17
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: pinky_home
+    name: alphas_pinky_home
+    zone: *ref_1
+    col: *ref_2
+    row: home
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+alphas_pinky_top:
+  x: 18
+  'y': 32
+  r: 0
+  meta:
+    stagger: -2
+    spread: 18
+    splay: 0
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 17
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: pinky_top
+    name: alphas_pinky_top
+    zone: *ref_1
+    col: *ref_2
+    row: top
+    bind:
+      - 0
+      - 10
+      - 10
+      - 10
+alphas_ring_bottom:
+  x: 40.7
+  'y': 14
+  r: -4
+  meta:
+    stagger: 16
+    spread: 22.7
+    splay: -4
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 17
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: ring_bottom
+    name: alphas_ring_bottom
+    zone: *ref_1
+    col: *ref_3
+    row: bottom
+    bind:
+      - 10
+      - 0
+      - 0
+      - 10
+alphas_ring_home:
+  x: 41.8858601
+  'y': 30.9585889
+  r: -4
+  meta:
+    stagger: 16
+    spread: 22.7
+    splay: -4
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 17
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: ring_home
+    name: alphas_ring_home
+    zone: *ref_1
+    col: *ref_3
+    row: home
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+alphas_ring_top:
+  x: 43.0717202
+  'y': 47.9171778
+  r: -4
+  meta:
+    stagger: 16
+    spread: 22.7
+    splay: -4
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 17
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: ring_top
+    name: alphas_ring_top
+    zone: *ref_1
+    col: *ref_3
+    row: top
+    bind:
+      - 0
+      - 10
+      - 10
+      - 0
+alphas_middle_bottom:
+  x: 64.4810508
+  'y': 24.3663697
+  r: -9.35
+  meta:
+    stagger: 12
+    spread: 23
+    splay: -5.35
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 17
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: middle_bottom
+    name: alphas_middle_bottom
+    zone: *ref_1
+    col: *ref_4
+    row: bottom
+    bind:
+      - 10
+      - 10
+      - 0
+      - 10
+alphas_middle_home:
+  x: 67.24295500000001
+  'y': 41.1405131
+  r: -9.35
+  meta:
+    stagger: 12
+    spread: 23
+    splay: -5.35
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 17
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: middle_home
+    name: alphas_middle_home
+    zone: *ref_1
+    col: *ref_4
+    row: home
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+alphas_middle_top:
+  x: 70.00485920000001
+  'y': 57.9146565
+  r: -9.35
+  meta:
+    stagger: 12
+    spread: 23
+    splay: -5.35
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 17
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: middle_top
+    name: alphas_middle_top
+    zone: *ref_1
+    col: *ref_4
+    row: top
+    bind:
+      - 0
+      - 0
+      - 10
+      - 0
+alphas_index_bottom:
+  x: 85.8757604
+  'y': 12.7359612
+  r: -15.1
+  meta:
+    stagger: -8
+    spread: 23
+    splay: -5.75
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 17
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: index_bottom
+    name: alphas_index_bottom
+    zone: *ref_1
+    col: *ref_5
+    row: bottom
+    bind:
+      - 10
+      - 10
+      - 0
+      - 0
+alphas_index_home:
+  x: 90.304337
+  'y': 29.148995900000003
+  r: -15.1
+  meta:
+    stagger: -8
+    spread: 23
+    splay: -5.75
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 17
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: index_home
+    name: alphas_index_home
+    zone: *ref_1
+    col: *ref_5
+    row: home
+    bind:
+      - 10
+      - 10
+      - 10
+      - 10
+alphas_index_top:
+  x: 94.7329136
+  'y': 45.5620306
+  r: -15.1
+  meta:
+    stagger: -8
+    spread: 23
+    splay: -5.75
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 17
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: index_top
+    name: alphas_index_top
+    zone: *ref_1
+    col: *ref_5
+    row: top
+    bind:
+      - 0
+      - 0
+      - 10
+      - 10
+alphas_far_bottom:
+  x: 103.5653923
+  'y': 6.5128653000000005
+  r: -19.16
+  meta:
+    stagger: -1.4
+    spread: 18.7
+    splay: -4.06
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 17
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: far_bottom
+    name: alphas_far_bottom
+    zone: *ref_1
+    col: *ref_6
+    row: bottom
+    bind:
+      - 10
+      - 0
+      - 0
+      - 0
+alphas_far_home:
+  x: 109.14491579999999
+  'y': 22.571162700000002
+  r: -19.16
+  meta:
+    stagger: -1.4
+    spread: 18.7
+    splay: -4.06
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 17
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: far_home
+    name: alphas_far_home
+    zone: *ref_1
+    col: *ref_6
+    row: home
+    bind:
+      - 10
+      - 0
+      - 10
+      - 10
+alphas_far_top:
+  x: 114.72443929999999
+  'y': 38.6294601
+  r: -19.16
+  meta:
+    stagger: -1.4
+    spread: 18.7
+    splay: -4.06
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 17
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: far_top
+    name: alphas_far_top
+    zone: *ref_1
+    col: *ref_6
+    row: top
+    bind:
+      - 0
+      - 0
+      - 10
+      - 10
+thumbfan_inner_thumb:
+  x: 92.2382022
+  'y': -13.9002375
+  r: -17.66
+  meta:
+    stagger: 0
+    spread: 18
+    splay: 1.5
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 17
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: inner_thumb
+    name: thumbfan_inner_thumb
+    zone: &ref_8
+      rows:
+        thumb: {}
+      columns:
+        inner: &ref_7
+          key:
+            splay: 1.5
+          rows: {}
+          name: inner
+        main: &ref_9
+          key:
+            stagger: -1.8
+            splay: -10.14
+            spread: cx+2
+          rows: {}
+          name: main
+        outer: &ref_10
+          key:
+            stagger: -1.8
+            splay: -10.14
+            spread: cx+2
+          rows: {}
+          name: outer
+      name: thumbfan
+    col: *ref_7
+    row: thumb
+    bind:
+      - 0
+      - 0
+      - 0
+      - 0
+thumbfan_main_thumb:
+  x: 110.7496101
+  'y': -21.682767899999998
+  r: -27.8
+  meta:
+    stagger: -1.8
+    spread: 20
+    splay: -10.14
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 17
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: main_thumb
+    name: thumbfan_main_thumb
+    zone: *ref_8
+    col: *ref_9
+    row: thumb
+    bind:
+      - 0
+      - 0
+      - 0
+      - 0
+thumbfan_outer_thumb:
+  x: 127.6017336
+  'y': -32.6027464
+  r: -37.94
+  meta:
+    stagger: -1.8
+    spread: 20
+    splay: -10.14
+    origin:
+      - 0
+      - 0
+    orient: 0
+    shift:
+      - 0
+      - 0
+    rotate: 0
+    width: 18
+    height: 18
+    padding: 17
+    autobind: 10
+    skip: false
+    asym: both
+    colrow: outer_thumb
+    name: thumbfan_outer_thumb
+    zone: *ref_8
+    col: *ref_10
+    row: thumb
+    bind:
+      - 0
+      - 0
+      - 0
+      - 0

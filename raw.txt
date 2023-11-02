@@ -1,0 +1,59 @@
+points:
+  key:
+    padding: cy
+    spread: cx
+  zones:
+    alphas:
+      rows:
+        bottom:
+        home:
+        top:
+      columns:
+        mod:
+          rows:
+            top.skip: true
+        pinky:
+          key:
+            stagger: -2
+        ring:
+          key:
+            stagger: 16
+            splay: -4
+            spread: cx+4.7
+        middle:
+          key:
+            stagger: 12
+            splay: -5.35
+            spread: cx+5
+        index:
+          key:
+            stagger: -8
+            splay: -5.75
+            spread: cx+5
+        far:
+          key:
+            stagger: -1.4
+            splay: -4.06
+            spread: cx+0.7
+          rows:
+            bottom.skip: false
+    thumbfan:
+      anchor:
+        ref: alphas_far_bottom
+        shift: [-4, -cy-6]
+      rows:
+        thumb:
+      columns:
+        inner:
+          key:
+            splay: 1.5
+        main:
+          key:
+            stagger: -1.8
+            splay: -10.14
+            spread: cx+2
+        outer:
+          key:
+            stagger: -1.8
+            splay: -10.14
+            spread: cx+2
